@@ -1,0 +1,40 @@
+body {
+    color: whitesmoke;
+}
+
+.fullPage {
+    height: 100vh;
+}
+
+.redBackground {
+    background-color: #540000;
+}
+
+.halfBackground {
+    height: 100vh;
+    background: linear-gradient(90deg, #540000 55%, #ffffff 45%);
+}
+
+.topSpacer {
+    margin-top: 10vh;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.xlText {
+    font-size: 7vw;
+}
+
+.lgText {
+    font-size: 2.5vw;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+}
+
+.bodyText {
+    font-family: 'Merriweather Sans', sans-serif;
+}

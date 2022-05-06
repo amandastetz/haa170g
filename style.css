@@ -1,5 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: whitesmoke;
+}
+
+.try {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+}
+
+.stick {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot:hover {
+    opacity: 1;
+}
+
+nav {
+    background-color: #540000;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+@media (min-height: 300px) {
+    nav ul {
+        position: sticky;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
+nav ul li a {
+    display: block;
+    padding: 0.2rem 1.5rem;
+    color: white;
+    text-decoration: none;
+    opacity: 0.6;
+}
+nav ul li a.current {
+    opacity: 1;
 }
 
 .fullPage {
@@ -10,13 +64,12 @@ body {
     background-color: #540000;
 }
 
-.halfBackground {
-    height: 100vh;
-    background: linear-gradient(90deg, #540000 55%, #ffffff 45%);
-}
-
 .topSpacer {
     margin-top: 10vh;
+}
+
+.smtopSpacer {
+    margin-top: 4vh;
 }
 
 .centerText {
@@ -28,6 +81,10 @@ body {
 }
 
 .lgText {
+    font-size: 4.5vw;
+}
+
+.medText {
     font-size: 2.5vw;
 }
 
@@ -38,3 +95,4 @@ body {
 .bodyText {
     font-family: 'Merriweather Sans', sans-serif;
 }
+

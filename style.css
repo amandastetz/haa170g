@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 body {
@@ -30,7 +31,8 @@ body {
 }
 
 nav {
-    background-color: #540000;
+    background-color: #353535;
+    z-index: 2;
 }
 nav ul {
     list-style: none;
@@ -45,6 +47,7 @@ nav ul {
         transform: translateY(-50%);
     }
 }
+
 nav ul li a {
     display: block;
     padding: 0.2rem 1.5rem;
@@ -64,8 +67,16 @@ nav ul li a.current {
     background-color: #540000;
 }
 
+.redText {
+    color: #540000;
+}
+
 .topSpacer {
     margin-top: 10vh;
+}
+
+.spacer {
+    margin-bottom: 10vh;
 }
 
 .smtopSpacer {
@@ -86,6 +97,10 @@ nav ul li a.current {
 
 .medText {
     font-size: 2.5vw;
+}
+
+.thin {
+    font-weight: 300;
 }
 
 .title {

@@ -18,6 +18,12 @@ body {
     top: 0;
 }
 
+.stick-30 {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 30%;
+}
+
 .dot {
     height: 10px;
     width: 10px;

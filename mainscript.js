@@ -3,16 +3,16 @@ console.log('It works!');
 $(document).ready(function() {
     $(window).on("scroll", function() {
         console.log($(this).scrollTop())
-        if($(this).scrollTop() >= 4000){
+        if($(this).scrollTop() >= 8450){
             // set to new image
             $(".brand-logo img").attr("src","img/six.jpg");
-        } else if ($(this).scrollTop() >= 3500){
+        } else if ($(this).scrollTop() >= 7610){
             $(".brand-logo img").attr("src","img/five.jpg");
         }
-        else if ($(this).scrollTop() >= 3000){
+        else if ($(this).scrollTop() >= 6740){
             $(".brand-logo img").attr("src","img/four.jpg");
         }
-        else if ($(this).scrollTop() >= 2500){
+        else if ($(this).scrollTop() >= 5960){
             $(".brand-logo img").attr("src","img/three.jpg");
         }
         else {

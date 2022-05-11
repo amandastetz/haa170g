@@ -2,22 +2,25 @@ console.log('It works!');
 
 $(document).ready(function() {
     $(window).on("scroll", function() {
-        console.log($(this).scrollTop())
-        if($(this).scrollTop() >= 8450){
+        // console.log($(this).scrollTop())
+        if($(this).scrollTop() >= 9450){
             // set to new image
             $(".brand-logo img").attr("src","img/six.jpg");
-        } else if ($(this).scrollTop() >= 7610){
+        } else if ($(this).scrollTop() >= 8950){
             $(".brand-logo img").attr("src","img/five.jpg");
         }
-        else if ($(this).scrollTop() >= 6740){
+        else if ($(this).scrollTop() >= 8450){
             $(".brand-logo img").attr("src","img/four.jpg");
         }
-        else if ($(this).scrollTop() >= 5960){
+        else if ($(this).scrollTop() >= 7610){
             $(".brand-logo img").attr("src","img/three.jpg");
+        }
+        else if ($(this).scrollTop() >= 7540){
+            $(".brand-logo img").attr("src","img/two.jpg");
         }
         else {
             //back to default
-            $(".brand-logo img").attr("src","img/two.jpg");
+            $(".brand-logo img").attr("src","img/one.jpg");
         }
     })
 })

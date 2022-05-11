@@ -7,6 +7,10 @@ body {
     color: whitesmoke;
 }
 
+.inFront {
+    z-index: 5;
+}
+
 .try {
     display: grid;
     grid-template-columns: min-content 1fr;
@@ -30,6 +34,39 @@ body {
     background-color: #f5f5f5;
     border-radius: 50%;
     display: inline-block;
+}
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+.key-1, .key-2, .key-3, .key-4, .key-5 {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin-right: 1vw;
+}
+
+.key-1 {
+    background-color: #8b1d30;
+}
+
+.key-2 {
+    background-color: #2e4066;
+}
+
+.key-3 {
+    background-color: #efba13;
+}
+
+.key-4 {
+    background-color: #9a6396;
+}
+
+.key-5 {
+    background-color: #3299cc;
 }
 
 .dot:hover {

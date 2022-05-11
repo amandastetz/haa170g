@@ -33,7 +33,7 @@ body {
 }
 
 .dot:hover {
-    opacity: 1;
+    background-color: #000000;
 }
 
 nav {
@@ -59,8 +59,13 @@ nav ul li a {
     padding: 0.2rem 1.5rem;
     color: white;
     text-decoration: none;
-    opacity: 0.6;
+    opacity: 0.2;
 }
+
+a:hover {
+    color: white;
+}
+
 nav ul li a.current {
     opacity: 1;
 }
@@ -70,7 +75,7 @@ nav ul li a.current {
 }
 
 .redBackground {
-    background-color: #540000;
+    background-color: #350101;
 }
 
 .redText {

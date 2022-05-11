@@ -5,22 +5,22 @@ $(document).ready(function() {
         // console.log($(this).scrollTop())
         if($(this).scrollTop() >= 9450){
             // set to new image
-            $(".brand-logo img").attr("src","img/six.jpg");
+            $(".brand-logo img").attr("src","img/siximg.jpg");
         } else if ($(this).scrollTop() >= 8950){
-            $(".brand-logo img").attr("src","img/five.jpg");
+            $(".brand-logo img").attr("src","img/fiveimg.jpg");
         }
         else if ($(this).scrollTop() >= 8450){
-            $(".brand-logo img").attr("src","img/four.jpg");
+            $(".brand-logo img").attr("src","img/fourPic.jpg");
         }
         else if ($(this).scrollTop() >= 7610){
-            $(".brand-logo img").attr("src","img/three.jpg");
+            $(".brand-logo img").attr("src","img/threePic.jpg");
         }
         else if ($(this).scrollTop() >= 7540){
-            $(".brand-logo img").attr("src","img/two.jpg");
+            $(".brand-logo img").attr("src","img/twoPic.jpg");
         }
         else {
             //back to default
-            $(".brand-logo img").attr("src","img/one.jpg");
+            $(".brand-logo img").attr("src","img/onePic.jpg");
         }
     })
 })

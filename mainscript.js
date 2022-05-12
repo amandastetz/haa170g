@@ -3,19 +3,19 @@ console.log('It works!');
 $(document).ready(function() {
     $(window).on("scroll", function() {
         // console.log($(this).scrollTop())
-        if($(this).scrollTop() >= 9450){
+        if($(this).scrollTop() >= 13400){
             // set to new image
             $(".brand-logo img").attr("src","img/siximg.jpg");
-        } else if ($(this).scrollTop() >= 8950){
+        } else if ($(this).scrollTop() >= 11540){
             $(".brand-logo img").attr("src","img/fiveimg.jpg");
         }
-        else if ($(this).scrollTop() >= 8450){
+        else if ($(this).scrollTop() >= 9500){
             $(".brand-logo img").attr("src","img/fourPic.jpg");
         }
-        else if ($(this).scrollTop() >= 7610){
+        else if ($(this).scrollTop() >= 7750){
             $(".brand-logo img").attr("src","img/threePic.jpg");
         }
-        else if ($(this).scrollTop() >= 7540){
+        else if ($(this).scrollTop() >= 6800){
             $(".brand-logo img").attr("src","img/twoPic.jpg");
         }
         else {
